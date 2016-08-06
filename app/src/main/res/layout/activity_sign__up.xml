@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lines"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:hint="UserName"
+        android:layout_margin="5dp"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/username"
+        android:textColor="@android:color/white"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/password"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/white"
+        android:maxLines="1"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/confPassword"
+        android:textColor="@android:color/white"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Sign Up"
+        android:id="@+id/signUpBtn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="      Already An Account?Login..!     "
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:id="@+id/loginTextinSignUp"
+        android:gravity="center"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:id="@+id/signUpProgressBar"/>
+
+
+
+</LinearLayout>

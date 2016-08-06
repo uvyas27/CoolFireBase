@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "101093625423",
+    "firebase_url": "https://coolfirebase-71d90.firebaseio.com",
+    "project_id": "coolfirebase-71d90",
+    "storage_bucket": "coolfirebase-71d90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101093625423:android:6f01c48b67c0cfe3",
+        "android_client_info": {
+          "package_name": "in.utsav.coolfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101093625423-ua3vqp8sindvvhsv4ecq1f3n50frnpel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWoAMq72PoUJ2EFXQXvS8wPJcyQj7t5Kg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
